@@ -9,11 +9,17 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What is included in my Northwind Health Plus plan that is not in standard?",
-        value: "What is included in my Northwind Health Plus plan that is not in standard?"
+        text: "What are the most important factors to consider when choosing a place to live?",
+        value: "What are the most important factors to consider when choosing a place to live?"
     },
-    { text: "What happens in a performance review?", value: "What happens in a performance review?" },
-    { text: "What does a Product Manager do?", value: "What does a Product Manager do?" }
+    { 
+        text: "What factors do households without children consider important when choosing a place to live?",
+        value: "What factors do households without children consider important when choosing a place to live?" 
+    },
+    {
+        text: "What factors affect satisfaction in living environment for people in their 30s?",
+        value: "What factors affect satisfaction in living environment for people in their 30s?" 
+    }
 ];
 
 interface Props {
