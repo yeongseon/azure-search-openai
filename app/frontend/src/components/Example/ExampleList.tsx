@@ -9,16 +9,16 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "What are the most important factors to consider when choosing a place to live?",
-        value: "What are the most important factors to consider when choosing a place to live?"
+        text: "What factors do men in their 30s consider important when choosing a place to live?",
+        value: "What factors do men in their 30s consider important when choosing a place to live?"
     },
     { 
         text: "What factors do households without children consider important when choosing a place to live?",
         value: "What factors do households without children consider important when choosing a place to live?" 
     },
     {
-        text: "What factors affect satisfaction in living environment for people in their 30s?",
-        value: "What factors affect satisfaction in living environment for people in their 30s?" 
+        text: "What factors do single households consider important when choosing a place to live?",
+        value: "What factors do single households consider important when choosing a place to live?" 
     }
 ];
 
